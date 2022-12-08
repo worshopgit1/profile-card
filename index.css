@@ -1,7 +1,16 @@
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .wrapper{
-    border: 1px solid black;
-    width: 575px;
+    width: 400px;
     margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.168);
 }
 
 img{
@@ -27,4 +36,43 @@ img{
     text-align: center;
     text-transform: uppercase;
     font-family: sans-serif;
+}
+
+.contact_links{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+    padding-left: 80px;
+}
+
+.icon{
+    width: 20px;
+    text-align: center;
+}
+.details{
+    font-family: sans-serif;
+}
+
+.social_links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.fa-dribbble{
+    color: rgb(255, 0, 170);
+}
+
+.fa-facebook{
+    color: rgb(0, 115, 255);
+}
+
+.fa-linkedin{
+    color: rgb(0, 69, 154);
+}
+
+.fa-youtube{
+    color: rgb(203, 20, 0);
 }
