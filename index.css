@@ -1,0 +1,9 @@
+.wrapper{
+    border: 1px solid black;
+    width: 575px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
